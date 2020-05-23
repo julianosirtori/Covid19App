@@ -5,5 +5,12 @@
     <string name="are_you_sick">Você está se sentindo doente?</string>
     <string name="answer_are_you_sick"> Se você se sentir doente com algum dos sintomas da covid-19, ligue ou envie um SMS imediatamente para obter ajuda. </string>
 
-    <string name="call_now">   Ligar Agora</string>
+    <string name="call_now">Ligar Agora</string>
+
+    <string name="prevention">Prevenção</string>
+    <string name="avoid_close_contact">Evite contato próximo</string>
+    <string name="clean_your_hands_often">Limpe suas mãos frequentemente</string>
+    <string name="wear_facemask">Usar uma máscara</string>
+
+
 </resources>
