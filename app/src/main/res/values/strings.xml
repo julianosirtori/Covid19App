@@ -26,4 +26,6 @@
     <string name="active">Ativos</string>
     <string name="serious">Serios</string>
 
+    <string name="daily_new_cases">Novos casos diários</string>
+
 </resources>
