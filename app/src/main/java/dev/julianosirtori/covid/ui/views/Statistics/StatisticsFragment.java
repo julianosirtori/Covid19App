@@ -11,8 +11,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import dev.julianosirtori.covid.R;
+import dev.julianosirtori.covid.ui.dialog.EstadosDialogFragment;
 
 public class StatisticsFragment extends Fragment {
 
@@ -25,7 +27,14 @@ public class StatisticsFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.statistics_fragment, container, false);
+        View view = inflater.inflate(R.layout.statistics_fragment, container, false);
+        LinearLayout linearLayout = view.findViewById(R.id.btn_estados);
+        linearLayout.setOnClickListener(view1 -> {
+            EstadosDialogFragment estadosDialogFragment = new EstadosDialogFragment();
+            estadosDialogFragment.show(getParentFragmentManager(), "dialog_estados");
+        });
+
+        return view;
     }
 
     @Override

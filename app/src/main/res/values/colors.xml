@@ -8,5 +8,10 @@
     <color name="textLigth">#FFFFFF</color>
 
     <color name="colorRed">#FF4D58</color>
+    <color name="colorYellow">#FFB259</color>
+    <color name="colorGreen">#4CD97B</color>
+    <color name="colorBlue">#4DB5FF</color>
+    <color name="colorPurple">#9059FF</color>
+
 
 </resources>

@@ -11,6 +11,19 @@
     <string name="avoid_close_contact">Evite contato próximo</string>
     <string name="clean_your_hands_often">Limpe suas mãos frequentemente</string>
     <string name="wear_facemask">Usar uma máscara</string>
+    <string name="statistics">Estatísticas</string>
 
+    <string name="parana">Paraná</string>
+    <string name="header_dialog_esados">Selecione um estado</string>
+
+    <string name="total">Total</string>
+    <string name="today">Hoje</string>
+    <string name="yesterday">Ontem</string>
+
+    <string name="affected">Afetados</string>
+    <string name="death">Mortes</string>
+    <string name="recovered">Recuperados</string>
+    <string name="active">Ativos</string>
+    <string name="serious">Serios</string>
 
 </resources>
